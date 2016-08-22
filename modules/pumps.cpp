@@ -20,20 +20,20 @@ void pumpsInit() {
 
 
 void pumpsRun() {
-	unsigned long time = millis() / 1000;
-	if (time % 3 == 0) {
-		digitalWrite(PUMP1_PIN, HIGH);
-		digitalWrite(PUMP2_PIN, LOW);
-		digitalWrite(PUMP3_PIN, LOW);
-	} else if (time % 3 == 1) {
-		digitalWrite(PUMP1_PIN, LOW);
-		digitalWrite(PUMP2_PIN, HIGH);
-		digitalWrite(PUMP3_PIN, LOW);
-	} else if (time % 3 == 2) {
-		digitalWrite(PUMP1_PIN, LOW);
-		digitalWrite(PUMP2_PIN, LOW);
-		digitalWrite(PUMP3_PIN, HIGH);
-	}
+//	unsigned long time = millis() / 1000;
+//	if (time % 3 == 0) {
+//		digitalWrite(PUMP1_PIN, HIGH);
+//		digitalWrite(PUMP2_PIN, LOW);
+//		digitalWrite(PUMP3_PIN, LOW);
+//	} else if (time % 3 == 1) {
+//		digitalWrite(PUMP1_PIN, LOW);
+//		digitalWrite(PUMP2_PIN, HIGH);
+//		digitalWrite(PUMP3_PIN, LOW);
+//	} else if (time % 3 == 2) {
+//		digitalWrite(PUMP1_PIN, LOW);
+//		digitalWrite(PUMP2_PIN, LOW);
+//		digitalWrite(PUMP3_PIN, HIGH);
+//	}
 }
 
 
